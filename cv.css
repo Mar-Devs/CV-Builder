@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.resume {
+  border-style: solid;
+  border-color: black;
+  border-width: 0.5px;
+  height: fit-content;
+  width: fit-content;
+  padding: 2rem;
+}
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.name-and-blurb h2 {
+  font-size: 36px;
+  margin-bottom: 0px;
+}
+
+.name-and-blurb p {
+  font-size: 9px;
+  margin-top: 2px;
+  font-weight: 100;
+  margin-bottom: 0px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 9px;
+  font-weight: 600;
+}
+
+.details p,
+.education p {
+  margin-bottom: 0px;
+  margin-top: 2px;
+}
+
+.job p,
+.education-info p {
+  font-size: 11px;
+}
+
+.dates,
+.education-dates {
+  font-size: 8px;
+}
+
+.experience h6, .education h6{
+    margin-bottom: 0px;
+}
+
+.experience p{
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
